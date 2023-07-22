@@ -19,7 +19,7 @@ app.get("/", (req, res) =>{
     res.render("index");
 });
 app.get("/productos", (req, res) =>{
-    res.render("productos");
+    res.render("productos", {productos});
 });
 
 app.get("/contacto", (req, res) =>{
