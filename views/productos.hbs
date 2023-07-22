@@ -6,11 +6,14 @@
     <title>Document</title>
     {{> estilos}}
 </head>
-  <body>  {{> header}}
-{{>navbar}}
+  <body>  
+    {{> header}}
+    {{>navbar}}
     <h1>Nuestros productos</h1>
-
-        {{> producto}}
+      <div class="container">
+          {{> producto}}
+      </div>
+        
 
 
     {{> footer}}
